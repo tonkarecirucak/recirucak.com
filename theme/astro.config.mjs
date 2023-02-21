@@ -7,7 +7,7 @@ import NetlifyCMS from 'astro-netlify-cms';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://odyssey-theme.littlesticks.dev/',
+  site: 'https://recirucak.com/',
   // Your public domain, e.g.: https://my-site.dev/. Used to generate sitemaps and canonical URLs.
   sitemap: true,
   // Generate sitemap (set to "false" to disable)
@@ -20,6 +20,7 @@ export default defineConfig({
       config: {
         backend: {
           name: 'git-gateway',
+          repo: 'tonkarecirucak/recirucak.com'
           branch: 'main',
         },
         collections: [
