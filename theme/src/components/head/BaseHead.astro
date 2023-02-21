@@ -17,15 +17,6 @@ const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Ast
 const image = new URL(Astro.props.image || './social.png', Astro.site);
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R1M4N1M7LJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-R1M4N1M7LJ');
-</script>
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
@@ -53,3 +44,12 @@ const image = new URL(Astro.props.image || './social.png', Astro.site);
 
 <!-- For Demonstration of the themes 
 {settings.enableThemeSwitcher && <ThemeProvider />}-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R1M4N1M7LJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R1M4N1M7LJ');
+</script>
