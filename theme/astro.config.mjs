@@ -39,6 +39,7 @@ export default defineConfig({
               { name: 'featuredImage', widget: 'image', choose_url: true, label: 'Featured Image', default: false },
               { name: 'excerpt', widget: 'string', label: 'Excerpt', required: false },
               { name: 'tags', widget: 'list', label: 'Tags', default: false },
+              { name: 'body', widget: 'markdown', label: 'Post Body' },
               {
                 name: 'layout',
                 widget: 'hidden',
