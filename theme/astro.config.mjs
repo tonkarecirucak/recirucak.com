@@ -17,6 +17,9 @@ export default defineConfig({
           repo: 'tonkarecirucak/recirucak.com',
           branch: 'main',
         },
+        media_folder: 'theme/public/assets/images/blog/',
+        public_folder: '/assets/images/blog/',
+        publish_mode: 'editorial_workflow',
         collections: [
           {
             name: 'posts',
