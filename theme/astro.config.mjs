@@ -23,6 +23,7 @@ export default defineConfig({
             label: 'Posts',
             label_singular: 'Post',
             folder: 'theme/src/pages/blog/posts',
+            extension: 'mdx',
             create: true,
             delete: true,
             fields: [
