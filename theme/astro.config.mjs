@@ -36,8 +36,8 @@ export default defineConfig({
               {
                 name: 'publishDate',
                 widget: 'datetime',
-                format: 'YYYY-MM-DDTHH:mm:ssZ',
-                date_format: 'DD MMM YYYY',
+                format: 'YYYY-MM-DD',
+                date_format: 'DD/MM/YYYY',
                 time_format: false,
                 label: 'Publish Date',
               },
