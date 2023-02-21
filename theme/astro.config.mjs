@@ -20,7 +20,7 @@ export default defineConfig({
       config: {
         backend: {
           name: 'git-gateway',
-          repo: 'tonkarecirucak/recirucak.com'
+          repo: 'tonkarecirucak/recirucak.com',
           branch: 'main',
         },
         collections: [
