@@ -27,23 +27,22 @@ const posts = await Astro.glob('./posts/*.mdx').then(posts =>
 );
 
 const seo = {
-	title: 'Blog | Astro Odyssey Theme',
-	description: 'Astro Odyssey Theme Blog Page',
+	title: 'Recepti | Tonka, reci ručak',
+	description: 'Tonka, reci ručak - Najbolji gastro recepti na hrvatskom',
 };
 ---
 
 <Layout {seo}>
 	<Container>
 		<TextCardSection>
-			<h1>Odyssey Blog</h1>
+			<h1>Recepti</h1>
 			<p>
-				View our blog to stay up to date on the latest news about our business.
-				Want to be the first to hear about a new blog post? Join our newsletter!
+				Inspiriram vas s najukusnijim receptima, korisnim savjetima i kreativnim idejama za pripremu obroka za svaku prigodu. Pridružite mi se i pretplatite se na moj newsletter!
 			</p>
 			<NewsletterForm />
 		</TextCardSection>
 		<section class="blog-posts-list__section">
-			<h2>Recent Posts</h2>
+			<h2>Posljednji recepti</h2>
 			<BlogPostsList posts={posts} />
 		</section>
 	</Container>

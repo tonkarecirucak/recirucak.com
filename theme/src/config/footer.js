@@ -1,23 +1,13 @@
 export const footerSocials = [
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/littlesticksdev',
-    icon: "mdi:twitter",
+    name: 'Instagram',
+    url: 'https://www.instagram.com/tonkarecirucak/',
+    icon: "mdi:instagram",
   },
   {
-    name: 'Youtube',
-    url: 'https://youtube.com/c/LittleSticks',
-    icon: "mdi:youtube",
-  },
-  {
-    name: 'Github',
-    url: 'https://github.com/littlesticks',
-    icon: "mdi:github",
-  },
-  {
-    name: 'Discord',
-    url: 'https://littlesticks.dev/discord',
-    icon: "ic:baseline-discord",
+    name: 'Facebook',
+    url: 'https://www.facebook.com/tonkinirecepti/',
+    icon: "mdi:facebook",
   },
 ]
 

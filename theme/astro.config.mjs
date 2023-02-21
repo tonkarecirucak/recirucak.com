@@ -17,15 +17,15 @@ export default defineConfig({
           repo: 'tonkarecirucak/recirucak.com',
           branch: 'main',
         },
-        media_folder: 'theme/public/assets/images/blog/',
-        public_folder: '/assets/images/blog/',
+        media_folder: 'theme/public/assets/images/recepti/',
+        public_folder: '/assets/images/recepti/',
         publish_mode: 'editorial_workflow',
         collections: [
           {
             name: 'posts',
             label: 'Posts',
             label_singular: 'Post',
-            folder: 'theme/src/pages/blog/posts',
+            folder: 'theme/src/pages/recepti/posts',
             extension: 'mdx',
             format: 'frontmatter',
             create: true,
