@@ -10,10 +10,6 @@ export default defineConfig({
   site: 'https://recirucak.com',
   sitemap: true,
   integrations: [
-    sitemap(), 
-    mdx(), 
-    image(), 
-    lit(), 
     NetlifyCMS({
       config: {
         backend: {
@@ -24,6 +20,10 @@ export default defineConfig({
         collections: [],
       },
     }),
+    sitemap(), 
+    mdx(), 
+    image(), 
+    lit(), 
   ], // Add renderers to the config
 
   // This is for the astro-icon package. You can find more about the package here: https://www.npmjs.com/package/astro-icon
