@@ -2,3 +2,9 @@
   base = "theme/"
   publish = "dist/"
   command = "npm run build"
+
+# Request bots not to index the admin section.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
