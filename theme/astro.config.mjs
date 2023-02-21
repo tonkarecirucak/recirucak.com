@@ -31,7 +31,7 @@ export default defineConfig({
             create: true,
             delete: true,
             fields: [
-              { name: 'title', widget: 'string', label: 'Post Title' },
+              { name: 'title', widget: 'string', label: 'Post Title', required: true },
               { name: 'description', widget: 'string', label: 'Description', required: false },
               {
                 name: 'publishDate',
@@ -43,7 +43,7 @@ export default defineConfig({
               },
               { name: 'featuredImage', widget: 'image', choose_url: true, label: 'Featured Image', default: false },
               { name: 'excerpt', widget: 'string', label: 'Excerpt', required: false },
-              { name: 'tags', widget: 'list', label: 'Tags', default: false },
+              { name: 'tags', widget: 'list', label: 'Tags', default: false, required: true },
               { name: 'body', widget: 'markdown', label: 'Post Body' },
               {
                 name: 'layout',
