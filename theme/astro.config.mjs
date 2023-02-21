@@ -22,7 +22,7 @@ export default defineConfig({
             name: 'posts',
             label: 'Posts',
             label_singular: 'Post',
-            folder: 'theme/src/pages/posts',
+            folder: 'theme/src/pages/blog/posts',
             create: true,
             delete: true,
             fields: [
